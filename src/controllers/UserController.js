@@ -38,6 +38,6 @@ export default class UserController {
 		await User.destroy({where: {id: req.params.userId}});
 		res.send({status: "ok"});
 	}
-};
+}
 
 
